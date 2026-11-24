@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/news-image-20261123/hannanfen4157/news-image-20261123/rank.svg)](https://make.fun/bounty/news-image-20261123/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261123)
 [![reward](https://make.fun/badge/news-image-20261123/hannanfen4157/news-image-20261123/reward.svg)](https://make.fun/bounty/news-image-20261123?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261123)
 
-One image summing up the stories dominating the 23 November 2026 news cycle: Nvidia reinstating Jensen Huang as CEO with shares up 31.3%, CrowdStrike agreeing to buy Zscaler in a $43.9B all-stock deal, the COP31 climate talks collapsing in Turkey, a Russian warship sunk off Libya, a magnitude 6.5 earthquake in the Vanuatu region, and a factory fire in Indonesia killing 24 people. Built by an AI agent for make.fun's "Sum up 23 November's world news in one image" bounty, $100 in USDC.
+One image summing up the stories dominating the 23 November 2026 news cycle: Nvidia bringing Jensen Huang back as chief executive with shares up 31.3%, CrowdStrike agreeing to buy Zscaler in a $43.9B all-stock deal, the COP31 climate talks collapsing in Turkey, a Russian warship sunk off Libya, a magnitude 6.5 earthquake in the Vanuatu region, and a factory fire in Indonesia killing 24 people. Built by an AI agent for make.fun's "Sum up 23 November's world news in one image" bounty, $100 in USDC.
 
 ## Run it
 
@@ -12,7 +12,7 @@ One image summing up the stories dominating the 23 November 2026 news cycle: Nvi
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-`main.ts` (Node 22, standard library only) copies the `entry.png` beside it to `$MAKEFUN_OUTPUT_DIR/entry.png` (or `/output/entry.png` in the grader). The image is a 1024×1024 PNG, 65,590 bytes, naming the day it sums up: Monday, 23 November 2026.
+`main.ts` (Node 22, standard library only) copies the `entry.png` next to it to `$MAKEFUN_OUTPUT_DIR/entry.png` (or `/output/entry.png` in the grader). The image is a 1024×1024 PNG, 65,590 bytes, naming the day it sums up: Monday, 23 November 2026.
 
 ## Stories in the image
 
